@@ -1,15 +1,11 @@
 /* color palattes-----------*/
-
 /* RGB */
-
 $color1: rgba(46, 132, 241, 1);
 $color2: rgba(30, 31, 32, 1);
 $color3: rgba(243, 87, 71, 1);
 $color4: rgba(158, 190, 17, 1);
 $color5: rgba(139, 164, 23, 1);
-
 /* RGB */
-
 $color1: rgba(46, 132, 241, 1);
 $color2: rgba(8, 9, 10, 1);
 $color3: rgba(30, 31, 32, 1);
@@ -17,15 +13,11 @@ $color4: rgba(172, 173, 173, 1);
 $color5: rgba(252, 252, 252, 1);
 
 /* font links */
-
 /*font-family: 'Raleway', sans-serif;
 font-family: 'Open Sans', sans-serif;*/
-
 /*box model fix*/
-
 html {
     box-sizing: border-box;
-
 }
 
 *,
@@ -35,7 +27,6 @@ html {
 }
 
 /*---css resets---*/
-
 aside,
 article,
 section,
@@ -46,7 +37,6 @@ nav {
 }
 
 /*add styles here*/
-
 html,
 body,
 div,
@@ -56,20 +46,16 @@ h3,
 p,
 ul,
 li,
-dd{
+dd {
     margin: 0;
     padding: 0;
 }
 
 /*---global---*/
-
 html {
     font-family: 'Open Sans', sans-serif;
     color: black;
-
-
 }
-
 
 h1,
 h2,
@@ -77,15 +63,7 @@ h3 {
     font-family: 'Raleway', sans-serif;
 }
 
-
-
-
-
-
-
 /*---header css*/
-
-
 .header {
     position: fixed;
     width: 100%;
@@ -94,16 +72,13 @@ h3 {
     margin-left: 15%;
     clear: both;
 }
+
 h1 {
     color: rgba(243, 87, 71, 1);
     padding: .4em 0 .3em 1.2em;
-
 }
 
-
-
 /*navigation bar*/
-
 .sidenav {
     height: 100%;
     width: 15%;
@@ -114,7 +89,6 @@ h1 {
     background-color: rgba(30, 31, 32, 1);
     overflow-x: hidden;
     font-family: 'Raleway', sans-serif;
-
 }
 
 .sidenav a {
@@ -123,20 +97,14 @@ h1 {
     display: block;
     font-size: 1.5em;
     padding: 1em 1em 1em 1em;
-
 }
-
-
 
 .sidenav a:hover {
     color: rgba(243, 87, 71, 1);
     background-color: rgba(158, 190, 17, 1);
-
 }
 
-
 /*main*/
-
 .main-container {
     margin-left: 15%;
     /* Same as the width of the sidenav */
@@ -145,23 +113,27 @@ h1 {
     background: linear-gradient(rgba(252, 252, 252, 1), rgba(30, 31, 32, 1));
     /* Standard syntax (must be last) */
 }
+
 #food-container {
     padding: 7em 2em;
     font-size: 1.2em;
     margin-right: 5%;
 }
+
 #times {
     text-align: center;
-
 }
+
 h2 {
     padding-top: 1em;
     font-weight: 1200
 }
+
 dt {
     font-weight: bolder;
     padding: .5em 0 0 0;
 }
+
 dd {
     padding: .1em 0 0 1em
 }
@@ -174,10 +146,9 @@ dd {
 
 #soups {
     display: inline-flex;
-
     margin-bottom: 2em;
-
 }
+
 #soups div {
     width: 50%
 }
@@ -191,21 +162,15 @@ dd {
     width: 80%;
 }
 
-
 /*---navigation page css---*/
-
 #map {
     display: flex;
     flex-flow: row;
     justify-content: center;
     padding: 10em
-
-
 }
 
-
 /*footer*/
-
 #intro {
     width: 80%;
     margin-left: auto;
@@ -241,6 +206,7 @@ footer {
     padding: .5em 0 3em 0;
     color: rgba(252, 252, 252, 1);
 }
+
 #nosmoke {
     padding-bottom: 2em;
     color: rgba(252, 252, 252, 1);
@@ -256,5 +222,5 @@ footer {
 
 #contact div {
     padding: 2em 3em 2em 5em;
-    color:  rgba(252, 252, 252, 1);
+    color: rgba(252, 252, 252, 1);
 }

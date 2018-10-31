@@ -1,15 +1,11 @@
 /* color palattes-----------*/
-
 /* RGB */
-
 $color1: rgba(46, 132, 241, 1);
 $color2: rgba(30, 31, 32, 1);
 $color3: rgba(243, 87, 71, 1);
 $color4: rgba(158, 190, 17, 1);
 $color5: rgba(139, 164, 23, 1);
-
 /* RGB */
-
 $color1: rgba(46, 132, 241, 1);
 $color2: rgba(8, 9, 10, 1);
 $color3: rgba(30, 31, 32, 1);
@@ -17,15 +13,11 @@ $color4: rgba(172, 173, 173, 1);
 $color5: rgba(252, 252, 252, 1);
 
 /* font links */
-
 /*font-family: 'Raleway', sans-serif;
 font-family: 'Open Sans', sans-serif;*/
-
 /*box model fix*/
-
 html {
     box-sizing: border-box;
-
 }
 
 *,
@@ -35,7 +27,6 @@ html {
 }
 
 /*---css resets---*/
-
 aside,
 article,
 section,
@@ -46,7 +37,6 @@ nav {
 }
 
 /*add styles here*/
-
 html,
 body,
 div,
@@ -61,22 +51,16 @@ li {
 }
 
 /*---global---*/
-
 html {
     font-family: 'Open Sans', sans-serif;
     color: black;
-
-
 }
-
 
 h1,
 h2,
 h3 {
     font-family: 'Raleway', sans-serif;
 }
-
-
 
 .header {
     position: fixed;
@@ -85,11 +69,9 @@ h3 {
     color: #f1f1f1;
     margin-left: 15%;
     clear: both;
-
 }
 
 /*---header css*/
-
 #ws {
     color: rgba(243, 87, 71, 1);
     padding: .5em 0 .25em 2em;
@@ -101,7 +83,6 @@ h3 {
 }
 
 /*navigation bar*/
-
 .sidenav {
     height: 100%;
     width: 15%;
@@ -112,7 +93,6 @@ h3 {
     background-color: rgba(30, 31, 32, 1);
     overflow-x: hidden;
     font-family: 'Raleway', sans-serif;
-
 }
 
 .sidenav a {
@@ -121,20 +101,14 @@ h3 {
     display: block;
     font-size: 1.5em;
     padding: 1em 1em 1em 1em;
-
 }
-
-
 
 .sidenav a:hover {
     color: rgba(243, 87, 71, 1);
     background-color: rgba(158, 190, 17, 1);
-
 }
 
-
 /*main*/
-
 .main-container {
     margin-left: 15%;
     /* Same as the width of the sidenav */
@@ -145,11 +119,9 @@ h3 {
 }
 
 /*---wine container css---*/
-
 #wine-container {
     padding: 5em 2em 0 2em;
     font-size: 1.2em;
-
 }
 
 h2 {}
@@ -166,16 +138,16 @@ h3 {
     text-align: center;
     padding: 2em 0;
     font-size: 1.2em;
-
 }
+
 #take-out {
     font-size: 1.3em;
     padding-bottom: 2em;
-color: rgba(158, 190, 17, 1);
+    color: rgba(158, 190, 17, 1);
     text-align: center;
 }
-/*footer*/
 
+/*footer*/
 #intro {
     width: 80%;
     margin-left: auto;
@@ -211,6 +183,7 @@ footer {
     padding: .5em 0 3em 0;
     color: rgba(252, 252, 252, 1);
 }
+
 #nosmoke {
     padding-bottom: 2em;
     color: rgba(252, 252, 252, 1);
@@ -226,5 +199,5 @@ footer {
 
 #contact div {
     padding: 2em 3em 2em 5em;
-    color:  rgba(252, 252, 252, 1);
+    color: rgba(252, 252, 252, 1);
 }

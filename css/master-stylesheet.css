@@ -17,13 +17,13 @@ $color5: rgba(252, 252, 252, 1);
 font-family: 'Open Sans', sans-serif;*/
 /*box model fix*/
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 /*---css resets---*/
@@ -33,7 +33,7 @@ section,
 header,
 footer,
 nav {
-  display: block;
+    display: block;
 }
 
 /*add styles here*/
@@ -46,321 +46,321 @@ h3,
 p,
 ul,
 li {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 /*---global---*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  color: black;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
 }
 
 h1,
 h2,
 h3 {
-  font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 /*head*/
 h1 {
-  font-size: 7em;
-  width: 300px;
-  margin-left: 5%;
-  padding-top: 25px;
+    font-size: 7em;
+    width: 300px;
+    margin-left: 5%;
+    padding-top: 25px;
 }
 
 .subhead {
-  font-size: 2em;
-  margin-left: 5%;
-  padding-bottom: .3em
+    font-size: 2em;
+    margin-left: 5%;
+    padding-bottom: .3em
 }
 
 /*---sticky header---*/
 .top-container {
-  background-color: rgba(46, 132, 241, 1);
-  height: 300px;
-  text-align: left;
-  margin-left: 15%;
+    background-color: rgba(46, 132, 241, 1);
+    height: 300px;
+    text-align: left;
+    margin-left: 15%;
 }
 
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .sticky+.main-container {
-  padding-top: 102px;
+    padding-top: 102px;
 }
 
 .header {
-  background: rgba(30, 31, 32, 1);
-  color: #f1f1f1;
-  margin-left: 15%;
-  clear: both;
+    background: rgba(30, 31, 32, 1);
+    color: #f1f1f1;
+    margin-left: 15%;
+    clear: both;
 }
 
 #ws {
-  color: rgba(243, 87, 71, 1);
-  padding: .5em 0 .25em 2em;
+    color: rgba(243, 87, 71, 1);
+    padding: .5em 0 .25em 2em;
 }
 
 #ev {
-  padding: 0 0 .5em 2em;
+    padding: 0 0 .5em 2em;
 }
 
 /*navigation bar*/
 .sidenav {
-  height: 100%;
-  width: 15%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgba(30, 31, 32, 1);
-  overflow-x: hidden;
-  font-family: 'Raleway', sans-serif;
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(30, 31, 32, 1);
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
 }
 
 .sidenav a {
-  text-decoration: none;
-  color: rgba(46, 132, 241, 1);
-  display: block;
-  font-size: 1.5em;
-  padding: 1em 1em 1em 1em;
+    text-decoration: none;
+    color: rgba(46, 132, 241, 1);
+    display: block;
+    font-size: 1.5em;
+    padding: 1em 1em 1em 1em;
 }
 
 .sidenav a:hover {
-  color: rgba(243, 87, 71, 1);
-  background-color: rgba(158, 190, 17, 1);
+    color: rgba(243, 87, 71, 1);
+    background-color: rgba(158, 190, 17, 1);
 }
 
 /*main*/
 .main-container {
-  margin-left: 15%;
-  /* Same as the width of the sidenav */
-  background: grey;
-  /* For browsers that do not support gradients */
-  background: linear-gradient(rgba(252, 252, 252, 1), rgba(30, 31, 32, 1));
-  /* Standard syntax (must be last) */
+    margin-left: 15%;
+    /* Same as the width of the sidenav */
+    background: grey;
+    /* For browsers that do not support gradients */
+    background: linear-gradient(rgba(252, 252, 252, 1), rgba(30, 31, 32, 1));
+    /* Standard syntax (must be last) */
 }
 
 /*---global button css---*/
 .button {
-  background-color: rgba(8, 9, 10, 1);
-  /* Green */
-  border: none;
-  color: rgba(46, 132, 241, 1);
-  padding: 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  -webkit-transition-duration: 0.4s;
-  /* Safari */
-  transition-duration: 0.4s;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.2em;
-  width: 140px
+    background-color: rgba(8, 9, 10, 1);
+    /* Green */
+    border: none;
+    color: rgba(46, 132, 241, 1);
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    width: 140px
 }
 
 .button2:hover {
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*---intro---*/
 #food-container {
-  padding-top: 2em;
-  display: block;
+    padding-top: 2em;
+    display: block;
 }
 
 #food-description {
-  width: 40%;
-  float: left;
-  padding: 5em 1em 0 2em;
-  font-size: 1.2em;
-  height: auto;
+    width: 40%;
+    float: left;
+    padding: 5em 1em 0 2em;
+    font-size: 1.2em;
+    height: auto;
 }
 
 #p1 {
-  padding-bottom: 2em
+    padding-bottom: 2em
 }
 
 #b1 {
-  margin: 2em auto 6em auto;
+    margin: 2em auto 6em auto;
 }
 
 #favorites {
-  list-style-type: none;
-  margin-top: 1em;
-  font-size: 1.2em;
-  font-family: 'Open Sans', sans-serif;
+    list-style-type: none;
+    margin-top: 1em;
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .row {
-  display: -ms-flexbox;
-  /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap;
-  /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
 }
 
 /* Create four equal columns that sits next to each other */
 .column {
-  -ms-flex: 25%;
-  /* IE10 */
-  flex: 25%;
-  max-width: 50%;
-  padding: 0 4px;
+    -ms-flex: 25%;
+    /* IE10 */
+    flex: 25%;
+    max-width: 50%;
+    padding: 0 4px;
 }
 
 .column img {
-  margin-top: 8px;
-  vertical-align: middle;
+    margin-top: 8px;
+    vertical-align: middle;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {}
+    .sidenav {}
 
-  .sidenav a {
-    font-size: 18px;
-  }
+    .sidenav a {
+        font-size: 18px;
+    }
 }
 
 /*---kid's section css---*/
 #kids {
-  width: 50%;
-  clear: both;
-  margin: 0 auto 0 auto;
+    width: 50%;
+    clear: both;
+    margin: 0 auto 0 auto;
 }
 
 #k1,
 #p4 {
-  padding-bottom: .2em;
+    padding-bottom: .2em;
 }
 
 /*---wine section css---*/
 #wine-background {
-  width: 100%;
-  height: auto;
-  padding: 6em 0 2em;
+    width: 100%;
+    height: auto;
+    padding: 6em 0 2em;
 }
 
 #wine-content {
-  width: 80%;
-  padding-left: 2em;
-  font-size: 1.2em;
+    width: 80%;
+    padding-left: 2em;
+    font-size: 1.2em;
 }
 
 #ask {
-  color: black;
-  font-weight: 800;
-  padding-top: 1em;
+    color: black;
+    font-weight: 800;
+    padding-top: 1em;
 }
 
 #wine-button {
-  clear: both;
-  padding: 2em 0 5em;
+    clear: both;
+    padding: 2em 0 5em;
 }
 
 #b2 {
-  margin-right: 5em;
+    margin-right: 5em;
 }
 
 /*---bar info---*/
 #logo {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 #blus-bar {
-  color: rgba(172, 173, 173, 1);
-  font-size: 1.2em;
+    color: rgba(172, 173, 173, 1);
+    font-size: 1.2em;
 }
 
 #p6 {
-  padding: 1em 0 1em 2em;
-  width: 80%;
+    padding: 1em 0 1em 2em;
+    width: 80%;
 }
 
 #rod {
-  padding: 0 0 5em 2em;
+    padding: 0 0 5em 2em;
 }
 
 /*footer*/
 #intro {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 1.25em;
-  text-align: center;
-  padding-bottom: 5em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.25em;
+    text-align: center;
+    padding-bottom: 5em;
 }
 
 footer {
-  color: rgba(252, 252, 252, 1);
+    color: rgba(252, 252, 252, 1);
 }
 
 #p7 {
-  padding-bottom: 1.2em;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 1.5em;
-  color: rgba(252, 252, 252, 1);
-  font-family: 'Raleway', sans-serif;
+    padding-bottom: 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+    color: rgba(252, 252, 252, 1);
+    font-family: 'Raleway', sans-serif;
 }
 
 #cclogos {
-  padding-top: 2em;
+    padding-top: 2em;
 }
 
 #warn {
-  padding: 0 0 0 2em;
-  color: rgba(243, 87, 71, 1);
+    padding: 0 0 0 2em;
+    color: rgba(243, 87, 71, 1);
 }
 
 #phone {
-  padding: .5em 0 3em 0;
-  color: rgba(252, 252, 252, 1);
+    padding: .5em 0 3em 0;
+    color: rgba(252, 252, 252, 1);
 }
 
 #nosmoke {
-  padding-bottom: 2em;
-  color: rgba(252, 252, 252, 1);
+    padding-bottom: 2em;
+    color: rgba(252, 252, 252, 1);
 }
 
 #contact {
-  display: flex;
-  flex-flow: row;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 2em;
+    display: flex;
+    flex-flow: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2em;
 }
 
 #contact div {
-  padding: 2em 3em 2em 5em;
-  color: rgba(252, 252, 252, 1);
+    padding: 2em 3em 2em 5em;
+    color: rgba(252, 252, 252, 1);
 }

@@ -1,4 +1,4 @@
-Blu's Restaurant, Vail Colorado, Website
+#Blu's Restaurant, Vail Colorado, Website
 
 I built this website for two reasons initialy.  I was applying to the Techtonic Apprentiecship and need to show them what I was capable of building as a rookie web developer.  This was the second real website I ever built. The second reason was to give to my old boss a thank you gift of an updated website for free.
 
